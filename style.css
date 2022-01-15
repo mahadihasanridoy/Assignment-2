@@ -8,13 +8,26 @@ main{
     flex-direction: column;
     align-items: center;
 }
+    /*-------------------
+     header style
+     ----------- */
+     .first-container{
+         display: flex;
+         justify-content:space-around;
+     }
+     nav a{
+         text-decoration: none;
+         color:black;
+         margin-right: 10px;
+     }
+    
     
 /*------------------
- first section style
+ first section style of menu
 -------------------- */
 
 
-.container{
+.second-container{
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,13 +62,13 @@ margin-bottom:30px;
     margin-left: 10px;
 }
 /*-----------------
- second section style
+ second section style of menu
  ------------------ */
  .section-title{
      display:flex;
      justify-content: center; 
  }
- .second-container{
+ .theird-container{
     
      margin-top: 70px;
      /* background-color: orchid; */
@@ -109,8 +122,8 @@ margin-bottom:30px;
      color:#E02C6D;
 
  }
- /* theird section */
- .thierd-container{
+ /* theird section of menu */
+ .fourth-container{
      margin-top: 20px;
  }
  .box-container{
