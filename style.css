@@ -45,6 +45,10 @@ main{
 height: 414px;
 margin-left:150px;
 margin-bottom:30px;
+transition: transform 2s;
+}
+.influencer-camera:hover{
+    transform: rotate(60deg);
 }
 .influencer-detail .anchor{
     background-color:tomato;
