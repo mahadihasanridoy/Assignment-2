@@ -31,7 +31,7 @@ main{
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* background-color: orchid; */
+    
   
 }
 .influencer-detail{
@@ -139,6 +139,9 @@ margin-bottom:30px;
      width: 200px;
      border: 2px solid slategray;
  }
+ .box-container{
+     border: 2px solid green;
+ }
  #box-1 .attention{
  padding-left:10px;
  }
@@ -167,4 +170,65 @@ margin-bottom:30px;
  }
  .footer-font .font-margin{
      margin-left: 20px;
+ }
+
+ /* media query use on mobile display */
+
+ @media only screen and (max-width:688px) {
+     .first-container .section-heading{
+         margin-left:100px;
+     }
+     .second-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+     }
+     .second-container .influencer-detail{
+        width: 300px;
+        height: 400px;
+        margin-left: 150px;
+     }
+     .collections{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         margin-left: 50px;
+         
+     }
+     .box-container{
+         height: 500px;
+         width: 300px;
+         
+     }
+     
+ }
+ /* media query use on ipad devices */
+
+ @media only screen and (min-width:688px) and (max-width:992px) {
+     .first-container{
+         margin-left: 150px;
+     }
+    .second-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+       }
+       .second-container .influencer-detail{
+          width: 300px;
+          height: 400px;
+          margin-left:100px;
+       }
+       .collections{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-left: 250px;
+    }
+        .box-container{
+            height: 500px;
+            width: 600px;
+            margin-left: 200px;
+            
+        }
+        .footer-style{
+            margin-left: 200px;
+        }
  }
