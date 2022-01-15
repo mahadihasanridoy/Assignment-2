@@ -1,0 +1,78 @@
+/* common/utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:100px;
+}
+
+    
+/*------------------
+ first section style
+-------------------- */
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+.influencer-detail{
+    width: 582px;
+    height: 270px;
+    margin-left:30px; 
+    margin-top: 120px;
+}
+.influencer-camera{
+    width: 440px;
+height: 414px;
+margin-left:150px;
+margin-bottom:30px;
+}
+.influencer-detail .anchor{
+    background-color:tomato;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+.influencer-detail .anchor a{
+    text-decoration: none;
+    color:#ffffff;
+    font size:30px;
+}
+.influencer-detail .anchor .fas.fa-arrow-right{
+    color: #ffffff;
+    font-size:12px;
+    margin-left: 10px;
+}
+/*-----------------
+ second section style
+ ------------------ */
+ .second-container{
+    
+     margin-top: 70px;
+ }
+ /* collection style */
+ .collections{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 30px;
+ }
+ .collection{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+ }
+ .collection .collection-banner img{
+    width: 300px;
+    height: 256px;
+ }
+ .fa-star.filled,.fa-star-half-alt.filled{
+     color:orange;
+ }
+ .collection-span{
+     margin-left: 10px;
+ }
